@@ -42,3 +42,7 @@ sudo ln /opt/homebrew/bin/docker-compose ~/.docker/cli-plugins/docker-compose
 ```
 docker compose run attackbox
 ```
+
+### Step 6: VNCに接続する
+
+[colima:1 - noVNC](http://localhost:8080/vnc.html)
