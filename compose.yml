@@ -1,0 +1,17 @@
+services:
+  attackbox:
+    build: .
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun
+    ports:
+      - 8080:8080
+    env_file:
+      - .env
+    volumes:
+      - ./share:/share:rw
+      - ${OPENVPN_PROFILE_HOSTPATH}:/openvpn-profile.ovpn:ro
+      - ./start.sh:/start.sh:ro
+    command: bash ./start.sh
+    network_mode: host
