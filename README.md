@@ -53,6 +53,12 @@ git clone https://github.com/kazu0123/tryhackme-attackbox-docker
 
 #### Step 5.2: コンテナを起動
 ```
+cd tryhackme-attackbox-docker
+```
+```
+docker compose build
+```
+```
 docker compose run attackbox
 ```
 
