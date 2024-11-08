@@ -64,7 +64,7 @@ docker compose run attackbox
 
 ### Step 6: VNCに接続する
 
-[colima:1 - noVNC](http://localhost:8080/vnc.html)
+[colima:1 - noVNC](http://localhost:18080/vnc.html)
 
 ### Step 7: VM内のFireFoxにアドオンをインストールする
 

@@ -6,7 +6,7 @@ services:
     devices:
       - /dev/net/tun
     ports:
-      - 8080:8080
+      - 18080:18080
     env_file:
       - .env
     volumes:
