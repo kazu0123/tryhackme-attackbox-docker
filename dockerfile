@@ -18,6 +18,10 @@ RUN apt-get update && apt-get install -y \
     novnc \
     dbus-x11
 
+# install tools
+RUN apt-get update && apt-get install -y \
+    wordlists \
+    gobuster
 
 # install openvpn
 RUN apt-get update && apt-get install -y \
