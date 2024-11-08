@@ -21,7 +21,8 @@ RUN apt-get update && apt-get install -y \
 # install tools
 RUN apt-get update && apt-get install -y \
     wordlists \
-    gobuster
+    gobuster \
+    burpsuite
 
 # install openvpn
 RUN apt-get update && apt-get install -y \
