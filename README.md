@@ -29,6 +29,9 @@ sudo ln /opt/homebrew/bin/docker-compose ~/.docker/cli-plugins/docker-compose
 ```
 
 ### **Step 2: このリポジトリをクローンする**
+```
+git clone https://github.com/kazu0123/tryhackme-attackbox-docker
+```
 
 ### **Step 3: OpenVPNの設定ファイルを配置**
 
