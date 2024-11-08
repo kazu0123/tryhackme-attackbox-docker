@@ -65,3 +65,11 @@ docker compose run attackbox
 ### Step 6: VNCに接続する
 
 [colima:1 - noVNC](http://localhost:8080/vnc.html)
+
+### Step 7: VM内のFireFoxにアドオンをインストールする
+
+#### Step 7.1: VM内のFireFoxにアドオンをインストールする
+[FoxyProxy Standard – 🦊 Firefox (ja) 向け拡張機能を入手](https://addons.mozilla.org/ja/firefox/addon/foxyproxy-standard/)
+
+#### Step 7.2: プロキシを追加する
+[![Image from Gyazo](https://i.gyazo.com/32e0d79f46b2dcb94b7c9e4cef563eed.png)](https://gyazo.com/32e0d79f46b2dcb94b7c9e4cef563eed)
