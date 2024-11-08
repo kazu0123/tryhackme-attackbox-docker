@@ -2,6 +2,13 @@
 
 ## 使い方
 
+### **Step 0: homebrewをインストールする。**
+[インストール方法](https://brew.sh/ja/)
+#### Step 0.1: インストールされているか確認
+```
+brew -v
+```
+
 ### **Step 1: なんらかの方法でDockerをインストールする**
 
 #### colimaの場合
@@ -13,6 +20,9 @@ colima start --cpu 4 --memory 6 --disk 60
 ```
 ```
 docker context use colima
+```
+```
+mkdir ~/.docker/cli-plugins/
 ```
 ```
 sudo ln /opt/homebrew/bin/docker-compose ~/.docker/cli-plugins/docker-compose
